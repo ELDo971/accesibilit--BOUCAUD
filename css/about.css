@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+}
+
+/* Header Styles */
+.header {
+  display: flex; /* Arrange elements horizontally */
+  justify-content: space-between; /* Space elements evenly */
+  align-items: center; /* Align elements vertically */
+  padding: 1rem 2rem; /* Add padding for spacing */
+  background-color: #e00400; /* Light gray background */
+}
+
+.logo {
+  flex-grow: 0; /* Prevent logo from expanding */
+}
+
+.logo img {
+  width: 100px; /* Adjust logo width as needed */
+  height: auto;
+}
+
+.navigation {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  display: inline-block; /* Display list items side-by-side */
+  margin-right: 1rem; /* Add space between list items */
+}
+
+.navigation a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Dark gray text color */
+}
+
+main {
+  padding: 3rem; /* Add some padding for readability */
+  max-width: 700px; /* Set a maximum width for better responsiveness */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem; /* Set a larger font size for the main heading */
+  margin-bottom: 1rem; /* Add some space after the heading */
+}
+
+main p {
+  line-height: 1.5; /* Adjust line spacing for better readability */
+  font-size: 1.5rem; /* Set a base font size for the paragraph */
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #e00400; /* Light gray background */
+}
+.footer p {
+  color :white;
+}
+.footer-navigation a {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+/* Add styles to the list items (li) */
+.footer-navigation li {
+  display: inline-block; /* Display list items side-by-side */
+  margin-right: 1rem;  /* Add margin for spacing between list items */
+}

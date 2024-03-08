@@ -1,0 +1,126 @@
+/* Header Styles */
+.header {
+  display: flex; /* Arrange elements horizontally */
+  justify-content: space-between; /* Space elements evenly */
+  align-items: center; /* Align elements vertically */
+  padding: 1rem 2rem; /* Add padding for spacing */
+  background-color: #e00400; /* Light gray background */
+}
+
+.logo {
+  flex-grow: 0; /* Prevent logo from expanding */
+}
+
+.logo img {
+  width: 100px; /* Adjust logo width as needed */
+  height: auto;
+}
+
+.navigation {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  display: inline-block; /* Display list items side-by-side */
+  margin-right: 1rem; /* Add space between list items */
+}
+
+.navigation a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Dark gray text color */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.square:hover {
+  -webkit-transform: translate(20px, -10px);
+  -ms-transform: translate(10px, -10px);
+  transform: translate(10px, -10px);
+  -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.square {
+  width: 460px;
+  height: 390px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px #6e6e6e;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.mask {
+  clip: rect(0px, 500px, 220px, 0px);
+  border-radius: 5px;
+  position: absolute;
+}
+
+img {
+  width: 460px;
+}
+
+.h1 {
+  margin: auto;
+  text-align: left;
+  margin-top: 240px;
+  padding-left: 30px;
+
+  font-family: "Merriweather", serif;
+  font-size: 26px;
+}
+p {
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  line-height: 18px;
+}
+
+.button {
+  background-color: #e00400;
+  color: white;
+  width: 90px;
+  padding: 10px 18px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 70px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "merriweather";
+}
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #e00400; /* Light gray background */
+}
+.footer p {
+  color: white;
+}
+.footer-navigation a {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+/* Add styles to the list items (li) */
+.footer-navigation li {
+  display: inline-block; /* Display list items side-by-side */
+  margin-right: 1rem; /* Add margin for spacing between list items */
+}

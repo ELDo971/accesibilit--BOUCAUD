@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+}
+
+/* Header Styles */
+.header {
+  display: flex; /* Arrange elements horizontally */
+  justify-content: space-between; /* Space elements evenly */
+  align-items: center; /* Align elements vertically */
+  padding: 1rem 2rem; /* Add padding for spacing */
+  background-color: #e00400; /* Light gray background */
+}
+
+.logo {
+  flex-grow: 0; /* Prevent logo from expanding */
+}
+
+.logo img {
+  width: 100px; /* Adjust logo width as needed */
+  height: auto;
+}
+
+.navigation {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  display: inline-block; /* Display list items side-by-side */
+  margin-right: 1rem; /* Add space between list items */
+}
+
+.navigation a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Dark gray text color */
+}
+  /* General Styles */
+main {
+    /* Set some padding for the content */
+    padding: 10px;
+    /* Center the content horizontally */
+    margin: 0 auto;
+    /* Set a maximum width for the content */
+    max-width: 1000px;
+  }
+  
+  /* Headings */
+  h2 {
+    /* Add some margin to the top and bottom of headings */
+    margin: 10px 0;
+  }
+  
+  /* Images */
+  img {
+    /* Set a fixed width for the images */
+    width: 854px;
+    height: 480px;
+    /* Add some margin to the bottom of the images */
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph  */
+  p {
+    color: black;
+  }
+ /* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #e00400; /* Light gray background */
+}
+.footer p {
+  color :white;
+}
+.footer-navigation a {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+/* Add styles to the list items (li) */
+.footer-navigation li {
+  display: inline-block; /* Display list items side-by-side */
+  margin-right: 1rem;  /* Add margin for spacing between list items */
+}
+

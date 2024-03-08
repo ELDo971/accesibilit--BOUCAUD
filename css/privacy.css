@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+}
+
+.header {
+  display: flex; /* Arrange elements horizontally */
+  justify-content: space-between; /* Space elements evenly */
+  align-items: center; /* Align elements vertically */
+  padding: 1rem 2rem; /* Add padding for spacing */
+  background-color: #e00400; /* Light gray background */
+}
+
+.logo {
+  flex-grow: 0; /* Prevent logo from expanding */
+}
+
+.logo img {
+  width: 100px; /* Adjust logo width as needed */
+  height: auto;
+}
+
+.navigation {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  display: inline-block; /* Display list items side-by-side */
+  margin-right: 1rem; /* Add space between list items */
+}
+
+.navigation a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Dark gray text color */
+}
+
+main {
+  padding: 1.5rem; /* Add some padding for readability */
+  max-width: 700px; /* Set a maximum width for better responsiveness */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+h1 {
+  font-size: 2rem; /* Set a larger font size for the main heading */
+  margin-bottom: 1rem; /* Add some space after the heading */
+}
+
+h2 {
+  font-size: 1.8rem; /* Set a slightly smaller font size for subheadings */
+  margin-bottom: 0.5rem; /* Add some space after subheadings */
+}
+
+p,
+ul {
+  font-size: 1.2rem;
+  line-height: 1.5; /* Adjust line spacing for better readability */
+}
+
+ul {
+  list-style: disc; /* Set the list style for bullet points */
+  padding-left: 1rem; /* Indent the list items */
+}
+
+a {
+  color: #e00400; /* Set the link color */
+  text-decoration: none; /* Remove underline from links by default */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #e00400; /* Light gray background */
+}
+.footer p {
+  color :white;
+}
+.footer-navigation a {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+/* Add styles to the list items (li) */
+.footer-navigation li {
+  display: inline-block; /* Display list items side-by-side */
+  margin-right: 1rem;  /* Add margin for spacing between list items */
+}

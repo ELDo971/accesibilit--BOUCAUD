@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="/css/contact.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="/">
+          <img src="/img/logo.png" alt="My Website Logo" />
+        </a>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/article">Articles</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="contact-text">
+        <h2>Contact Us</h2>
+        <p>Please fill out the form  to get in touch with us.</p>
+      </div>
+      <div class="contact-form">
+        <form action="submit_form.php" method="post">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2024 My Website</p>
+      <nav class="footer-navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/About-us">About Us</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/Privacy-policy">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
